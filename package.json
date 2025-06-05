@@ -1,37 +1,7 @@
 {
-  "name": "lifewayusa",
+  "name": "lwusa-api",
   "version": "1.0.0",
-  "description": "Plataforma digital para orientar famílias no processo de imigração para os EUA.",
-  "main": "src/main.jsx",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "keywords": [
-    "react",
-    "vite",
-    "tailwind",
-    "lifewayusa"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "@hookform/resolvers": "^5.0.1",
-    "@supabase/supabase-js": "^2.49.10",
-    "@vitejs/plugin-react": "^4.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-helmet-async": "^2.0.5",
-    "react-hook-form": "^7.57.0",
-    "react-router-dom": "^6.0.0",
-    "zod": "^3.25.51"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.0",
-    "postcss": "^8.0.0",
-    "supabase": "^2.24.3",
-    "tailwindcss": "^3.0.0",
-    "vite": "^4.0.0"
+    "@vercel/node": "^3.0.0"
   }
 }
